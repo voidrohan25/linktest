@@ -1,7 +1,15 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/batches/layout,_N_T_/batches/page,_N_T_/batches"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/616c900fbf59f66dba1e1e7e41b87200fb826e43e22fb75c6bc09376b1f2794a/$/batches",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/batches/page"
+    },
+    "isFallback": false
   }
 }

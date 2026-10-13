@@ -1,7 +1,15 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/ai-interview/layout,_N_T_/ai-interview/page,_N_T_/ai-interview"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/83a7693bc6543af8ab02501963be8e476dff4b5bb731e0b0d9409b0621b6ae5e/$/ai-interview",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/ai-interview/page"
+    },
+    "isFallback": false
   }
 }

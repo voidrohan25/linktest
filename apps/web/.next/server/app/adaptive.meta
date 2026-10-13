@@ -1,7 +1,15 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/adaptive/layout,_N_T_/adaptive/page,_N_T_/adaptive"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/97e10de5fc21a7a771e9285f1a71339e3da7650d1579d56fd575a4ddf880a751/$/adaptive",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/adaptive/page"
+    },
+    "isFallback": false
   }
 }

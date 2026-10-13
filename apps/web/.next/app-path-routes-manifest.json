@@ -1,1 +1,25 @@
-{"/_not-found/page":"/_not-found","/api/attempts/[id]/answers/route":"/api/attempts/[id]/answers","/api/attempts/[id]/route":"/api/attempts/[id]","/api/attempts/route":"/api/attempts","/api/batches/route":"/api/batches","/api/classes/route":"/api/classes","/api/interviews/[id]/route":"/api/interviews/[id]","/api/interviews/route":"/api/interviews","/api/questions/route":"/api/questions","/api/tests/route":"/api/tests","/(auth)/login/page":"/login","/adaptive/page":"/adaptive","/ai-interview/page":"/ai-interview","/batches/page":"/batches","/coding/page":"/coding","/dashboard/page":"/dashboard","/mock-tests/page":"/mock-tests","/page":"/","/notifications/page":"/notifications","/progress/page":"/progress","/plans/page":"/plans","/results/page":"/results","/tests/take/[attemptId]/page":"/tests/take/[attemptId]"}
+{
+  "/_not-found/page": "/_not-found",
+  "/api/attempts/[id]/answers/route": "/api/attempts/[id]/answers",
+  "/api/batches/route": "/api/batches",
+  "/api/attempts/route": "/api/attempts",
+  "/api/classes/route": "/api/classes",
+  "/api/attempts/[id]/route": "/api/attempts/[id]",
+  "/api/interviews/[id]/route": "/api/interviews/[id]",
+  "/api/questions/route": "/api/questions",
+  "/api/tests/route": "/api/tests",
+  "/api/interviews/route": "/api/interviews",
+  "/batches/page": "/batches",
+  "/ai-interview/page": "/ai-interview",
+  "/(auth)/login/page": "/login",
+  "/dashboard/page": "/dashboard",
+  "/coding/page": "/coding",
+  "/notifications/page": "/notifications",
+  "/mock-tests/page": "/mock-tests",
+  "/adaptive/page": "/adaptive",
+  "/page": "/",
+  "/plans/page": "/plans",
+  "/progress/page": "/progress",
+  "/tests/take/[attemptId]/page": "/tests/take/[attemptId]",
+  "/results/page": "/results"
+}

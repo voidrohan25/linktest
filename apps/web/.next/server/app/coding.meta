@@ -1,7 +1,15 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/coding/layout,_N_T_/coding/page,_N_T_/coding"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/37808712baf07c8c556d9e1edc212b09625581e620645f698610873194dd0528/$/coding",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/coding/page"
+    },
+    "isFallback": false
   }
 }

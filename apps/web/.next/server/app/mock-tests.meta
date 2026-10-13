@@ -1,7 +1,15 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "4294967294",
+    "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/mock-tests/layout,_N_T_/mock-tests/page,_N_T_/mock-tests"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/3a7bece23474a29a7cc4542c0bba8f8fdcdf38869e7a5787def2ff6761781da7/$/mock-tests",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/mock-tests/page"
+    },
+    "isFallback": false
   }
 }

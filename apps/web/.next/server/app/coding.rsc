@@ -1,16 +1,19 @@
-2:"$Sreact.fragment"
-3:I[9275,[],""]
-4:I[1343,[],""]
-5:I[6513,[],"ClientPageRoot"]
-6:I[1036,["138","static/chunks/138-80a2806ac476836b.js","952","static/chunks/952-050c702840a0cf6a.js","69","static/chunks/app/coding/page-8dcfaf17179f6ee3.js"],"default",1]
-9:I[3120,[],"OutletBoundary"]
-b:I[3120,[],"MetadataBoundary"]
-d:I[3120,[],"ViewportBoundary"]
-f:I[6130,[],""]
-1:HL["/_next/static/css/dc49630659e11a99.css","style"]
-0:{"P":null,"b":"hGqBsg11bH0-0STfIqvv0","p":"","c":["","coding"],"i":false,"f":[[["",{"children":["coding",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dc49630659e11a99.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-gray-50 text-gray-900 antialiased font-sans","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]]}],{"children":["coding",["$","$2","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","coding","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":[["$","$L5",null,{"Component":"$6","searchParams":{},"params":{},"promises":["$@7","$@8"]}],null,["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","4VcKTwoO3Ff56u27TnOc0",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],null]}]]}]]],"m":"$undefined","G":"$f","s":false,"S":true}
-8:{}
-7:{}
-e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Vidyaan — Placement Practice Platform"}],["$","meta","2",{"name":"description","content":"Mock tests, AI interviews, and adaptive practice for engineering students."}]]
-a:null
+1:"$Sreact.fragment"
+2:I[5341,[],""]
+3:I[25,[],""]
+4:I[1012,[],"ClientPageRoot"]
+5:I[9235,["664","static/chunks/664-6d821dc1aacb6b48.js","671","static/chunks/671-b7593fe3ccf5aca6.js","493","static/chunks/app/coding/page-5bece8c6c1557b7e.js"],"default"]
+8:I[5104,[],"OutletBoundary"]
+a:I[7158,[],"AsyncMetadataOutlet"]
+c:I[5104,[],"ViewportBoundary"]
+e:I[5104,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[4431,[],""]
+:HL["/_next/static/css/38119917e7956663.css","style"]
+0:{"P":null,"b":"p7TUu5WFYslr9xJSxXNb-","p":"","c":["","coding"],"i":false,"f":[[["",{"children":["coding",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/38119917e7956663.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-gray-50 text-gray-900 antialiased font-sans","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["coding",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L4",null,{"Component":"$5","searchParams":{},"params":{},"promises":["$@6","$@7"]}],null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+6:{}
+7:"$0:f:0:1:2:children:2:children:1:props:children:0:props:params"
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"Vidyaan — Placement Practice Platform"}],["$","meta","1",{"name":"description","content":"Mock tests, AI interviews, and adaptive practice for engineering students."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"
