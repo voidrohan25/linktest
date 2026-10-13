@@ -2,10 +2,16 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Clock, ShieldCheck } from 'lucide-react';
+
+interface TestItem {
+  id: number;
+  name: string;
+  status: string;
+  score: number;
+}
 
 export default function TestsPage() {
-  const [tests, setTests] = useState([]);
+  const [tests, setTests] = useState<TestItem[]>([]);
 
   useEffect(() => {
     setTests([

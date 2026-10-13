@@ -14,13 +14,13 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "type-check": "turbo run type-check"
   },
-  "devDependencies": {
-    "prettier": "^3.2.5",
-    "turbo": "^1.13.4"
-  },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.15.0",
     "@supabase/auth-helpers-shared": "^0.7.0",
     "@supabase/supabase-js": "^2.117.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.4"
   }
 }

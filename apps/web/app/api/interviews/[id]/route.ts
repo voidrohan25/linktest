@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/db/supabase';
 
-// GET /api/interviews/:id - Get a specific interview session
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  props: { params: Promise<{ id: string }> }
 ) {
+  const params = await props.params;
   const { id } = params;
 
   const { data, error } = await supabase
@@ -25,11 +25,11 @@ export async function GET(
   return NextResponse.json(data);
 }
 
-// PUT /api/interviews/:id - Update interview session state
 export async function PUT(
   request: Request,
-  { params }: { params: { id: string } }
+  props: { params: Promise<{ id: string }> }
 ) {
+  const params = await props.params;
   const { id } = params;
   const body = await request.json();
   const { state, completed_at, settings_json } = body;
@@ -53,11 +53,11 @@ export async function PUT(
   return NextResponse.json(data);
 }
 
-// DELETE /api/interviews/:id - Delete interview session
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string } }
+  props: { params: Promise<{ id: string }> }
 ) {
+  const params = await props.params;
   const { id } = params;
 
   const { error } = await supabase

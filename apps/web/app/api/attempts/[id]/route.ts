@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/db/supabase';
 
-// GET /api/attempts/:id - Get a specific attempt by ID
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  props: { params: Promise<{ id: string }> }
 ) {
+  const params = await props.params;
   const { id } = params;
 
   const { data, error } = await supabase
@@ -34,15 +34,14 @@ export async function GET(
   return NextResponse.json(data);
 }
 
-// PUT /api/attempts/:id - Update an attempt (submit answers, update status)
 export async function PUT(
   request: Request,
-  { params }: { params: { id: string } }
+  props: { params: Promise<{ id: string }> }
 ) {
+  const params = await props.params;
   const { id } = params;
   const body = await request.json();
 
-  // Validate attempt exists first
   const { data: existingAttempt, error: fetchError } = await supabase
     .from('attempts')
     .select('id, status, test_id, user_id, started_at, answers')
@@ -56,7 +55,6 @@ export async function PUT(
     );
   }
 
-  // Prevent updating completed attempts
   if (existingAttempt.status === 'completed') {
     return NextResponse.json(
       { error: 'Cannot modify a completed attempt' },
@@ -64,29 +62,23 @@ export async function PUT(
     );
   }
 
-  // Handle answer submission
   const { answers, status, score, feedback } = body;
-
   const updateData: Record<string, any> = {};
 
   if (answers !== undefined) {
     updateData.answers = answers;
   }
-
   if (status) {
     updateData.status = status;
   }
-
   if (score !== undefined) {
     updateData.score = score;
   }
-
   if (feedback) {
     updateData.feedback = feedback;
   }
 
-  // Auto-complete if status is set to completed but expires_at is not set
-  if (status === 'completed' && !existingAttempt.expires_at) {
+  if (status === 'completed') {
     updateData.completed_at = new Date().toISOString();
   }
 
@@ -107,11 +99,11 @@ export async function PUT(
   return NextResponse.json(data);
 }
 
-// DELETE /api/attempts/:id - Delete an attempt (use with caution)
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string } }
+  props: { params: Promise<{ id: string }> }
 ) {
+  const params = await props.params;
   const { id } = params;
 
   const { data, error } = await supabase

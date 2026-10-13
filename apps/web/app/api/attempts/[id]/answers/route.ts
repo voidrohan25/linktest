@@ -1,12 +1,12 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/db/supabase';
 
-export async function POST(request: Request, { params }: { params: { id: string } }) {
+export async function POST(request: Request, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const attemptId = params.id;
   const body = await request.json();
   const { question_id, answer_json } = body;
 
-  // Insert/Update answer
   const { data, error } = await supabase
     .from('attempt_answers')
     .upsert({
