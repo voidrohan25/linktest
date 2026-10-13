@@ -8,6 +8,7 @@ export default function TakeTestPage() {
   const { attemptId } = useParams();
   const [timeLeft, setTimeLeft] = useState<number>(3600);
   const [stream, setStream] = useState<MediaStream | null>(null);
+  const [cameraError, setCameraError] = useState<string | null>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function TakeTestPage() {
         if (videoRef.current) videoRef.current.srcObject = mediaStream;
       } catch (err) {
         console.error("Camera access denied", err);
+        setCameraError('Camera access denied. Please allow camera permissions to proceed with the test.');
       }
     }
     startProctoring();

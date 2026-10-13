@@ -4,7 +4,7 @@
     "env": {},
     "webpack": null,
     "eslint": {
-      "ignoreDuringBuilds": false
+      "ignoreDuringBuilds": true
     },
     "typescript": {
       "ignoreBuildErrors": false,
@@ -15,7 +15,7 @@
     "cleanDistDir": true,
     "assetPrefix": "",
     "cacheMaxMemorySize": 52428800,
-    "configOrigin": "default",
+    "configOrigin": "next.config.js",
     "useFileSystemPublicRoutes": true,
     "generateEtags": true,
     "pageExtensions": [
@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\hp",
+    "outputFileTracingRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\linktest\\apps\\web",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -288,11 +288,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "C:\\Users\\hp"
+      "root": "C:\\Users\\hp\\OneDrive\\Desktop\\linktest\\apps\\web"
     }
   },
   "appDir": "C:\\Users\\hp\\OneDrive\\Desktop\\linktest\\apps\\web",
-  "relativeAppDir": "OneDrive\\Desktop\\linktest\\apps\\web",
+  "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",

@@ -10,15 +10,16 @@
   "/api/questions/route": "app/api/questions/route.js",
   "/api/tests/route": "app/api/tests/route.js",
   "/adaptive/page": "app/adaptive/page.js",
-  "/coding/page": "app/coding/page.js",
-  "/batches/page": "app/batches/page.js",
-  "/mock-tests/page": "app/mock-tests/page.js",
   "/ai-interview/page": "app/ai-interview/page.js",
-  "/notifications/page": "app/notifications/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/plans/page": "app/plans/page.js",
+  "/login/page": "app/login/page.js",
+  "/batches/page": "app/batches/page.js",
+  "/coding/page": "app/coding/page.js",
+  "/notifications/page": "app/notifications/page.js",
+  "/mock-tests/page": "app/mock-tests/page.js",
   "/page": "app/page.js",
-  "/tests/take/[attemptId]/page": "app/tests/take/[attemptId]/page.js",
+  "/plans/page": "app/plans/page.js",
   "/progress/page": "app/progress/page.js",
-  "/results/page": "app/results/page.js"
+  "/results/page": "app/results/page.js",
+  "/tests/take/[attemptId]/page": "app/tests/take/[attemptId]/page.js"
 }

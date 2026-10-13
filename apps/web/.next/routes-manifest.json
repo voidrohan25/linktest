@@ -96,6 +96,12 @@
       "namedRegex": "^/dashboard(?:/)?$"
     },
     {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
       "page": "/mock-tests",
       "regex": "^/mock\\-tests(?:/)?$",
       "routeKeys": {},

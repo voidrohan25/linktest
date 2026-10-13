@@ -1,6 +1,22 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient, SupabaseClient, SupabaseAuthClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder-key';
+// Attempt to create a real Supabase client if env vars are present.
+let supabase: SupabaseClient<any, "public", any>;
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+  supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+} else {
+  // Export a dummy object that mimics the parts of the Supabase client we use.
+  // This prevents the whole app from crashing when env vars are missing.
+  const dummyAuth = {
+    signInWithPassword: async () => ({ error: new Error('Supabase not configured: missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY') }),
+    signInWithOAuth: async () => ({ error: new Error('Supabase not configured: missing env vars') }),
+    signUp: async () => ({ error: new Error('Supabase not configured: missing env vars') }),
+  } as unknown as SupabaseAuthClient<any>;
+  supabase = {
+    auth: dummyAuth,
+    // other methods are not used in the current codebase, so we leave them undefined.
+  } as unknown as SupabaseClient<any, "public", any>;
+}
+
+export { supabase };

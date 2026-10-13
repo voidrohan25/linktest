@@ -10,15 +10,16 @@
   "/api/questions/route": "/api/questions",
   "/api/tests/route": "/api/tests",
   "/adaptive/page": "/adaptive",
-  "/coding/page": "/coding",
-  "/batches/page": "/batches",
-  "/mock-tests/page": "/mock-tests",
   "/ai-interview/page": "/ai-interview",
-  "/notifications/page": "/notifications",
   "/dashboard/page": "/dashboard",
-  "/plans/page": "/plans",
+  "/login/page": "/login",
+  "/batches/page": "/batches",
+  "/coding/page": "/coding",
+  "/notifications/page": "/notifications",
+  "/mock-tests/page": "/mock-tests",
   "/page": "/",
-  "/tests/take/[attemptId]/page": "/tests/take/[attemptId]",
+  "/plans/page": "/plans",
   "/progress/page": "/progress",
-  "/results/page": "/results"
+  "/results/page": "/results",
+  "/tests/take/[attemptId]/page": "/tests/take/[attemptId]"
 }
